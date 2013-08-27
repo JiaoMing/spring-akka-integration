@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CustomBeanRegistry">
+    <option name="map">
+      <map>
+        <entry key="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;spring-akka:actor-system xmlns:spring-akka=&quot;http://www.mimacom.org/schema/spring-akka-integration&quot; /&gt;&#10;&#10;">
+          <value>
+            <list>
+              <CustomBeanInfo>
+                <option name="beanName" value="akkaActorSystem" />
+                <option name="beanClassName" value="org.mimacom.spring.akka.config.ActorSystemFactoryBean" />
+              </CustomBeanInfo>
+              <CustomBeanInfo>
+                <option name="beanName" value="springAwareActorFactory" />
+                <option name="beanClassName" value="org.mimacom.spring.akka.util.SpringAwareActorFactory" />
+              </CustomBeanInfo>
+              <CustomBeanInfo>
+                <option name="beanName" value="akkaActorSystem" />
+                <option name="beanClassName" value="org.mimacom.spring.akka.config.ActorSystemFactoryBean" />
+              </CustomBeanInfo>
+            </list>
+          </value>
+        </entry>
+        <entry key="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;spring-akka:actor-system xmlns:spring-akka=&quot;http://www.mimacom.org/schema/spring-akka-integration&quot; name=&quot;myActorSystem&quot; /&gt;&#10;&#10;">
+          <value>
+            <list>
+              <CustomBeanInfo>
+                <option name="beanName" value="akkaActorSystem" />
+                <option name="beanClassName" value="org.mimacom.spring.akka.config.ActorSystemFactoryBean" />
+              </CustomBeanInfo>
+              <CustomBeanInfo>
+                <option name="beanName" value="springAwareActorFactory" />
+                <option name="beanClassName" value="org.mimacom.spring.akka.util.SpringAwareActorFactory" />
+              </CustomBeanInfo>
+              <CustomBeanInfo>
+                <option name="beanName" value="akkaActorSystem" />
+                <option name="beanClassName" value="org.mimacom.spring.akka.config.ActorSystemFactoryBean" />
+              </CustomBeanInfo>
+            </list>
+          </value>
+        </entry>
+        <entry key="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;spring-akka:actor-system xmlns:spring-akka=&quot;http://www.mimacom.org/schema/spring-akka-integration&quot; name=&quot;myActorSystem1&quot; /&gt;&#10;&#10;">
+          <value>
+            <list>
+              <CustomBeanInfo>
+                <option name="beanName" value="akkaActorSystem" />
+                <option name="beanClassName" value="org.mimacom.spring.akka.config.ActorSystemFactoryBean" />
+              </CustomBeanInfo>
+              <CustomBeanInfo>
+                <option name="beanName" value="springAwareActorFactory" />
+                <option name="beanClassName" value="org.mimacom.spring.akka.util.SpringAwareActorFactory" />
+              </CustomBeanInfo>
+              <CustomBeanInfo>
+                <option name="beanName" value="akkaActorSystem" />
+                <option name="beanClassName" value="org.mimacom.spring.akka.config.ActorSystemFactoryBean" />
+              </CustomBeanInfo>
+            </list>
+          </value>
+        </entry>
+        <entry key="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;spring-akka:actor-system xmlns:spring-akka=&quot;http://www.mimacom.org/schema/spring-akka-integration&quot; name=&quot;myActorSystem2&quot; /&gt;&#10;&#10;">
+          <value>
+            <list>
+              <CustomBeanInfo>
+                <option name="beanName" value="akkaActorSystem" />
+                <option name="beanClassName" value="org.mimacom.spring.akka.config.ActorSystemFactoryBean" />
+              </CustomBeanInfo>
+              <CustomBeanInfo>
+                <option name="beanName" value="springAwareActorFactory" />
+                <option name="beanClassName" value="org.mimacom.spring.akka.util.SpringAwareActorFactory" />
+              </CustomBeanInfo>
+              <CustomBeanInfo>
+                <option name="beanName" value="akkaActorSystem" />
+                <option name="beanClassName" value="org.mimacom.spring.akka.config.ActorSystemFactoryBean" />
+              </CustomBeanInfo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
+

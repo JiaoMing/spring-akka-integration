@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-akka-integration-core/spring-akka-integration-core.iml" filepath="$PROJECT_DIR$/spring-akka-integration-core/spring-akka-integration-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-akka-integration-parent.iml" filepath="$PROJECT_DIR$/spring-akka-integration-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-akka-integration-test/spring-akka-integration-test.iml" filepath="$PROJECT_DIR$/spring-akka-integration-test/spring-akka-integration-test.iml" />
+    </modules>
+  </component>
+</project>
+
