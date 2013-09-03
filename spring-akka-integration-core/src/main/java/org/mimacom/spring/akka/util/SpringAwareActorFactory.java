@@ -38,6 +38,6 @@ public class SpringAwareActorFactory implements ApplicationContextAware {
 
 	public ActorRef actorOf(Class<?> actorType) {
 		ActorSystem actorSystem = applicationContext.getBean(ActorSystem.class);
-		return actorSystem.actorOf(SpringExtension.SpringExtProvider.get(actorSystem).props(actorType), actorType.getSimpleName());
+		return actorSystem.actorOf(SpringExtension.SpringExtProvider.get(actorSystem).props(actorType));
 	}
 }

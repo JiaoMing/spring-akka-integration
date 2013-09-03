@@ -38,6 +38,6 @@ public class SpringAwareTestActorFactory {
 		Assert.notNull(actorType, "actorType cannot be null.");
 		Assert.notNull(applicationContext, "applicationContext cannot be null.");
 		ActorSystem actorSystem = applicationContext.getBean(ActorSystem.class);
-		return TestActorRef.create(actorSystem, SpringExtension.SpringExtProvider.get(actorSystem).props(actorType), actorType.getSimpleName());
+		return TestActorRef.create(actorSystem, SpringExtension.SpringExtProvider.get(actorSystem).props(actorType));
 	}
 }
