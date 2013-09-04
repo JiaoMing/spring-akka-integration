@@ -25,6 +25,8 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
+    <name>${project.artifactId}</name>
+
     <properties>
         <spring-version>3.2.3.RELEASE</spring-version>
         <akka-version>2.2.0</akka-version>

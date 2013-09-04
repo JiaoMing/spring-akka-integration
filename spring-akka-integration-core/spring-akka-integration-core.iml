@@ -4,10 +4,10 @@
     <facet type="Spring" name="Spring">
       <configuration>
         <fileset id="fileset" name="Spring Application Context" removed="false">
-          <file>file://$MODULE_DIR$/src/test/resources/org/mimacom/spring/akka/config/xml/SpringAkkaIntegrationBeanDefinitionParserTest-context.xml</file>
           <file>file://$MODULE_DIR$/src/test/resources/org/mimacom/spring/akka/config/xml/SpringAkkaIntegrationBeanDefinitionParserTest-WithTwoActorSystem-context.xml</file>
-          <file>file://$MODULE_DIR$/src/test/resources/org/mimacom/spring/akka/util/SpringAwareActorFactoryTest-context.xml</file>
+          <file>file://$MODULE_DIR$/src/test/resources/org/mimacom/spring/akka/config/xml/SpringAkkaIntegrationBeanDefinitionParserTest-context.xml</file>
           <file>file://$MODULE_DIR$/src/test/resources/org/mimacom/spring/akka/config/xml/SpringAkkaIntegrationBeanDefinitionParserTest-WithName-context.xml</file>
+          <file>file://$MODULE_DIR$/src/test/resources/org/mimacom/spring/akka/util/SpringAwareActorFactoryTest-context.xml</file>
         </fileset>
       </configuration>
     </facet>

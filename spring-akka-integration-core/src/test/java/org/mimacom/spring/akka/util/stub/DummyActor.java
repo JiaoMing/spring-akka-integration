@@ -25,6 +25,7 @@ import org.springframework.stereotype.Component;
 @Scope("prototype")
 public class DummyActor extends UntypedActor {
 
+	@SuppressWarnings("SpringJavaAutowiringInspection") // Mock implementation is set for testing
 	@Autowired
 	private DummyService dummyService;
 

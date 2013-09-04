@@ -32,17 +32,17 @@ public class ActorSystemFactoryBean extends AbstractFactoryBean<ActorSystem> imp
 	private ClassLoader classLoader;
 	private ApplicationContext applicationContext;
 
-	@SuppressWarnings("UnusedDeclaration") // Is used by the bean definition parser
+	@SuppressWarnings("UnusedDeclaration") // Is set by the bean definition parser
 	public void setClassLoader(ClassLoader classLoader) {
 		this.classLoader = classLoader;
 	}
 
-	@SuppressWarnings("UnusedDeclaration") // Is used by the bean definition parser
+	@SuppressWarnings("UnusedDeclaration") // Is set by the bean definition parser
 	public void setConfig(Config config) {
 		this.config = config;
 	}
 
-	@SuppressWarnings("UnusedDeclaration") // Is used by the bean definition parser
+	@SuppressWarnings("UnusedDeclaration") // Is set by the bean definition parser
 	public void setName(String name) {
 		this.name = name;
 	}
@@ -72,13 +72,19 @@ public class ActorSystemFactoryBean extends AbstractFactoryBean<ActorSystem> imp
 		return actorSystem;
 	}
 
-	private void createSpringAwareActorFactory(ActorSystem actorSystem) {
-		Assert.notNull(actorSystem, "actorSystem cannot be null");
-		SpringExtension.SpringExtProvider.get(actorSystem).initialize(this.applicationContext);
-	}
-
 	@Override
 	public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
 		this.applicationContext = applicationContext;
+	}
+
+	@Override
+	protected void destroyInstance(ActorSystem actorSystem) throws Exception {
+		super.destroyInstance(actorSystem);
+		actorSystem.shutdown();
+	}
+
+	private void createSpringAwareActorFactory(ActorSystem actorSystem) {
+		Assert.notNull(actorSystem, "actorSystem cannot be null");
+		SpringExtension.SpringExtProvider.get(actorSystem).initialize(this.applicationContext);
 	}
 }
